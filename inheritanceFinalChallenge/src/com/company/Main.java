@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Outlander outlander = new Outlander(36);
-        outlander.accelerate(30);
-        outlander.accelerate(20);
+        Scanner solution = new Scanner(System.in);
+        while ((line = solution.hasNextLine()) != null) {
+            String line = solution.nextLine();
+            System.out.println(line);
+        }
     }
 }
